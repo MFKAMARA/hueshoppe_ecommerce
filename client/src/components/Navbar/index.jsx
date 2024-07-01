@@ -8,9 +8,9 @@ function Navbar (){
                   <div class="col-sm-12">
                      <div class="custom_menu">
                         <ul>
-                           <li><a href="#">Best Sellers</a></li>
+                           <li><a href="#">Top Selling</a></li>
                            <li><a href="#">Gift Ideas</a></li>
-                           <li><a href="#">New Releases</a></li>
+                           <li><a href="#">Newly Added</a></li>
                            <li><a href="#">Today's Deals</a></li>
                            <li><a href="#">Customer Service</a></li>
                         </ul>
@@ -47,9 +47,9 @@ function Navbar (){
                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
                      </button>
                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Custom T-Shirts Printing</a>
+                        <a class="dropdown-item" href="#">Camian Photography Services</a>
+                        <a class="dropdown-item" href="#">Custom Woodcraft Items</a>
                      </div>
                   </div>
                   <div class="main">
@@ -100,7 +100,7 @@ function Navbar (){
                      <div class="carousel-item active">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br/>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Shop, Click, Repeat <br/>Your Shopping Haven</h1>
                               <div class="buynow_bt"><a href="#">Buy Now</a></div>
                            </div>
                         </div>
@@ -108,7 +108,7 @@ function Navbar (){
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br/>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Discover Beauty <br/>in Every Click</h1>
                               <div class="buynow_bt"><a href="#">Buy Now</a></div>
                            </div>
                         </div>
