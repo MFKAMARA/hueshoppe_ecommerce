@@ -116,7 +116,7 @@ function Navbar (){
                      <div class="carousel-item">
                         <div class="row">
                            <div class="col-sm-12">
-                              <h1 class="banner_taital">Get Start <br/>Your favriot shoping</h1>
+                              <h1 class="banner_taital">Your Online <br/>Shopping Destination</h1>
                               <div class="buynow_bt"><a href="#">Buy Now</a></div>
                            </div>
                         </div>
