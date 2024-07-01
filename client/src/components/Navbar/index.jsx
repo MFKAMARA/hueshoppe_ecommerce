@@ -83,7 +83,7 @@ function Navbar (){
                            </li>
                            <li><a href="#">
                               <i class="fa fa-user" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                              <span class="padding_10">Log in</span></a>
                            </li>
                         </ul>
                      </div>
