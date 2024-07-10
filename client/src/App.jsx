@@ -7,6 +7,7 @@ import Photo_Services from './components/Photo_Services'
 import Woodcraft_Services from './components/Woodcraft_Services'
 import T_shirt_Services from './components/T_shirt_Services'
 import Copyright from './components/Copyright'
+import $ from  "jquery"
 
 function App() {
   const [count, setCount] = useState(0)

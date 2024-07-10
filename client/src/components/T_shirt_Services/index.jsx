@@ -21,7 +21,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img src="images/tshirt-img.png" alt="Man T-shirt" />
+                          <img src="/images/grad.jpeg" alt="Man T-shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -42,7 +42,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/dress-shirt-img.png"
+                            src="/images/wed.jpeg"
                             alt="Man shirt"
                           />
                         </div>
@@ -65,7 +65,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/women-clothes-img.png"
+                            src="/images/bshower.jpeg"
                             alt="Woman Scarf"
                           />
                         </div>
@@ -96,7 +96,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img src="images/tshirt-img.png" alt="Man T-shirt" />
+                          <img src="/images/company.jpeg" alt="Man T-shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -116,7 +116,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/dress-shirt-img.png"
+                            src="/images/birth.jpeg"
                             alt="Man shirt"
                           />
                         </div>
@@ -138,7 +138,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/women-clothes-img.png"
+                            src="/images/reunion.jpeg"
                             alt="Woman Scarf"
                           />
                         </div>
@@ -169,7 +169,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img src="images/tshirt-img.png" alt="Man T-shirt" />
+                          <img src="/images/schoolactivitiy.jpeg" alt="Man T-shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -189,7 +189,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/dress-shirt-img.png"
+                            src="/images/fund.jpeg"
                             alt="Man shirt"
                           />
                         </div>
@@ -211,7 +211,7 @@ function T_shirt_Services() {
                         </p>
                         <div class="tshirt_img">
                           <img
-                            src="images/women-clothes-img.png"
+                            src="images/soccer.jpeg"
                             alt="Woman Scarf"
                           />
                         </div>

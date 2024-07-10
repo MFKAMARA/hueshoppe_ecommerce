@@ -1,5 +1,11 @@
 // Define a functional component called Navbar
 function Navbar() {
+  function openNav(){
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
    return (
      <>
        {/* Main banner section */}
@@ -33,7 +39,7 @@ function Navbar() {
                  <div class="logo">
                    <a class="text-white" href="index.html">
                      {/* <img src="images/logo.png"/> */}
-                     <h1 class="banner_taital">HueShoppe</h1>
+                     {/* <h1 class="banner_taital">HueShoppe</h1> */}
                    </a>
                  </div>
                </div>
@@ -47,14 +53,14 @@ function Navbar() {
              <div class="containt_main">
                {/* Side navigation */}
                <div id="mySidenav" class="sidenav">
-                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="javascript:void(0)" class="closebtn" onClick={()=>closeNav()}>&times;</a>
                  <a href="index.html">Home</a>
                  <a href="Custom T-Shirt Services.html">Custom T-Shirt Services</a>
                  <a href="Camian Photo Studio.html">Camian Photo Studio</a>
                  <a href="3D Customized Woodcraft Services.html">3D Customized Woodcraft Services</a>
                </div>
-               <span class="toggle_icon" onclick="openNav()">
-                 {/* <img src="images/toggle-icon.png"/> */}
+               <span class="toggle_icon" onClick={()=>openNav()}>
+                 <img src="images/toggle-icon.png"/>
                </span>
                
                {/* Dropdown for categories */}
