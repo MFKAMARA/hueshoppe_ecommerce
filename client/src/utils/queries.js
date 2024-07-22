@@ -1,0 +1,1 @@
+import {GQL} from "@apollo/client"

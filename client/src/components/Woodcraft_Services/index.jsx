@@ -10,9 +10,9 @@ function Woodcraft_Services (){
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Jumkas</h4>
+                                 <h4 class="shirt_text">Wooden Decor</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/jhumka-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/familyname.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
@@ -21,9 +21,9 @@ function Woodcraft_Services (){
                            </div>
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Necklaces</h4>
+                                 <h4 class="shirt_text">Cutting Board</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/neklesh-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/cutting-board.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
@@ -32,51 +32,9 @@ function Woodcraft_Services (){
                            </div>
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Kangans</h4>
+                                 <h4 class="shirt_text">Wooden Puzzle</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/kangan-img.png"/></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                  <h1 class="fashion_taital">3D Custom Woodcraft Services</h1>
-                     <div class="fashion_section_2">
-                        <div class="row">
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Jumkas</h4>
-                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/jhumka-img.png"/></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Necklaces</h4>
-                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/neklesh-img.png"/></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Kangans</h4>
-                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/kangan-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/puzzle.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
@@ -94,9 +52,9 @@ function Woodcraft_Services (){
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Jumkas</h4>
+                                 <h4 class="shirt_text">Wooden Flower</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/jhumka-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/Woodendecor.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
@@ -105,9 +63,9 @@ function Woodcraft_Services (){
                            </div>
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Necklaces</h4>
+                                 <h4 class="shirt_text">Wooden Necklaces</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/neklesh-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/Necklace.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
@@ -116,9 +74,51 @@ function Woodcraft_Services (){
                            </div>
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Kangans</h4>
+                                 <h4 class="shirt_text">Wooden Keychain</h4>
                                  <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
-                                 <div class="jewellery_img"><img src="images/kangan-img.png"/></div>
+                                 <div class="jewellery_img"><img src="images/keychain1.jpeg"/></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                  <h1 class="fashion_taital">3D Custom Woodcraft Services</h1>
+                     <div class="fashion_section_2">
+                        <div class="row">
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Wooden Map</h4>
+                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
+                                 <div class="jewellery_img"><img src="images/map1.jpeg"/></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Wooden Necklaces</h4>
+                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
+                                 <div class="jewellery_img"><img src="images/necklace2.jpeg"/></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Leather Keychain</h4>
+                                 <p class="price_text">Start Price  <span style={{color: "#262626;"}}>$ 100</span></p>
+                                 <div class="jewellery_img"><img src="images/Leather.jpeg"/></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">See More</a></div>
