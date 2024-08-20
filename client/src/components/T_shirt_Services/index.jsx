@@ -1,5 +1,22 @@
 // Define a functional component called T_shirt_Services
+import { useState,useEffect } from "react";
+import { useQuery } from "@apollo/client";
+import { QUERY_CATEGORIES, QUERY_PRODUCTS } from "../../utils/queries";
+
 function T_shirt_Services() {
+  const { data, loading } = useQuery(QUERY_CATEGORIES);
+  const categoryTshirt = data?.categories || [];
+  console.log(categoryTshirt);
+  const { data: productData, loading: productLoading } =
+    useQuery(QUERY_PRODUCTS,{
+      variables:{
+      
+        name:"Custom T-Shirt Services"
+      }
+    });
+  let products = productData?.products|| [];
+  console.log(products);
+
   return (
     <>
       {/* Main fashion section */}
@@ -14,7 +31,11 @@ function T_shirt_Services() {
                 <div class="fashion_section_2">
                   <div class="row">
                     {/* First product: Man T-shirt */}
-                    <div class="col-lg-4 col-sm-4">
+                    {loading && productLoading?"loading":
+                    products.filter(product=>product.category===categoryTshirt[0]._id).map(product=>{
+                      console.log(product)
+                      return (
+                        <div class="col-lg-4 col-sm-4">
                       <div class="box_main">
                         <h4 class="shirt_text">Graduation T-shirt</h4>
                         <p class="price_text">
@@ -33,18 +54,21 @@ function T_shirt_Services() {
                         </div>
                       </div>
                     </div>
+                      )
+                    })
+                    }
+                    
                     {/* Second product: Man shirt */}
-                    <div class="col-lg-4 col-sm-4">
+                    {/* <div class="col-lg-4 col-sm-4">
                       <div class="box_main">
-                        <h4 class="shirt_text">Wedding & Bachelorette T-shirt</h4>
+                        <h4 class="shirt_text">
+                          Wedding & Bachelorette T-shirt
+                        </h4>
                         <p class="price_text">
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="/images/wed.jpeg"
-                            alt="Man shirt"
-                          />
+                          <img src="/images/wed.jpeg" alt="Man shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -55,19 +79,16 @@ function T_shirt_Services() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* Third product: Woman Scarf */}
-                    <div class="col-lg-4 col-sm-4">
+                    {/* <div class="col-lg-4 col-sm-4">
                       <div class="box_main">
                         <h4 class="shirt_text">Baby Shower T-Shirt</h4>
                         <p class="price_text">
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="/images/bshower.jpeg"
-                            alt="Woman Scarf"
-                          />
+                          <img src="/images/bshower.jpeg" alt="Woman Scarf" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -78,7 +99,7 @@ function T_shirt_Services() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -115,10 +136,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="/images/birth.jpeg"
-                            alt="Man shirt"
-                          />
+                          <img src="/images/birth.jpeg" alt="Man shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -137,10 +155,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="/images/reunion.jpeg"
-                            alt="Woman Scarf"
-                          />
+                          <img src="/images/reunion.jpeg" alt="Woman Scarf" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -169,7 +184,10 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img src="/images/schoolactivitiy.jpeg" alt="Man T-shirt" />
+                          <img
+                            src="/images/schoolactivitiy.jpeg"
+                            alt="Man T-shirt"
+                          />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -188,10 +206,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="/images/fund.jpeg"
-                            alt="Man shirt"
-                          />
+                          <img src="/images/fund.jpeg" alt="Man shirt" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">
@@ -210,10 +225,7 @@ function T_shirt_Services() {
                           Price <span style={{ color: "#262626" }}>$ 30</span>
                         </p>
                         <div class="tshirt_img">
-                          <img
-                            src="images/soccer.jpeg"
-                            alt="Woman Scarf"
-                          />
+                          <img src="images/soccer.jpeg" alt="Woman Scarf" />
                         </div>
                         <div class="btn_main">
                           <div class="buy_bt">

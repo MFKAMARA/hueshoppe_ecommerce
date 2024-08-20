@@ -9,6 +9,7 @@ const resolvers = {
     },
     products: async (parent, { category, name }) => {
       const params = {};
+      console.log(category)
 
       if (category) {
         params.category = category;
@@ -20,7 +21,7 @@ const resolvers = {
         };
       }
 
-      return await Product.find(params).populate('category');
+      return await Product.find({category}).populate('category');
     },
     product: async (parent, { _id }) => {
       return await Product.findById(_id).populate('category');
@@ -108,7 +109,7 @@ const resolvers = {
     },
     updateUser: async (parent, args, context) => {
       if (context.user) {
-        return await User.findByIdAndUpdate(context.user._id, args, { new: true });
+        return await User.findByIdAndUpdate(context.user._id, {$set:args}, { new: true });
       }
 
       throw AuthenticationError;
